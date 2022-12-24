@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+:root {
+    --ffont: 'Pacifico', cursive;
+    --sfont: 'Josefin Sans', sans-serif;
+    --color1: #17252a;
+    --color2: #2b7a78;
+    --color3: #3aafa9;
+    --color4: #def2f1;
+}
+
+.left-side {
+    height: 100vh;
+    background-color: var(--color2);
+    position: fixed;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-side a {
+    margin: 30px;
+}
+
+.right-side {
+    min-height: 100vh;
+    background-color: var(--color3);
+    margin-left: 250px;
+}
+
+.componets li a {
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+    font-family: var(--sfont);
+    font-size: 20px;
+    display: flex;
+    /* text-decoration: underline; */
+    /* border: 2px solid; */
+    text-shadow: 1px 1px 3px black;
+    /* border-bottom: 3px solid white; */
+    padding: 5px;
+}
+
+.componets li:hover {
+    cursor: pointer;
+    /* color: var(--color4); */
+    color: var(--color3);
+    transition: 0.3s ease-in;
+    /* text-decoration: underline white; */
+    /* border-bottom: #de.f2f1 solid; */
+}
+
+.webname {
+    border: 5px solid goldenrod;
+    padding: 6px;
+    background-color: black;
+    color: whitesmoke !important;
+    font-family: var(--ffont);
+    color: black;
+    font-weight: 600;
+}
+
+.form-div input {
+    border-bottom: 2px solid var(--color1);
+    border-radius: 0px;
+    background-color: var(--color3);
+}
+
+.upload-blog {
+    font-family: var(--sfont);
+    color: var(--color2);
+    background-color: #fff;
+}
+
+.upload-blog:hover {
+    background-color: var(--color1);
+    color: white;
+    transition: 0.3s ease-in;
+}
+
+.sms i {
+    font-family: var(--ffont);
+}
+
+.heading {
+    font-family: var(--sfont);
+}
+
+form label {
+    font-family: var(--sfont);
+}
+
+table tr th,
+td {
+    font-family: var(--sfont);
+}
+
+.Addional {
+    background-color: #17252a;
+    color: white;
+    border: 2px solid;
+    text-decoration: none;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.Addional:hover {
+    background-color: var(--color2);
+    color: #def2f1;
+    border: 2px solid black;
+    transition: 0.3s ease-in-out;
+}
+
+.ccard {
+    width: 250px;
+    border-radius: 0px;
+}
+.newPageHeading{
+    font-family: var(--sfont);
+}
